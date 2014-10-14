@@ -1,5 +1,4 @@
 CREATE OR REPLACE PACKAGE BODY PKG_EVENTOS AS 
-
     FUNCTION getDescricao(plc VARCHAR2, cod NUMBER, er CHAR, acess CHAR) RETURN VARCHAR2
     IS 
       retorno VARCHAR2(200):=null;
